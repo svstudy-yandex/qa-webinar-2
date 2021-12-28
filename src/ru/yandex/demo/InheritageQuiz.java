@@ -17,6 +17,7 @@ class Report {
 }
 
 class YearlyReport extends Report {
+    @Override
     public String getName() {
         return name;
     }
